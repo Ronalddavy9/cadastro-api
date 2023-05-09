@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "rm -rf build && cd C:\\Users\\ronal\\OneDrive\\Documentos\\frontend-cadastro && npm run build && cp -r build C:\\Users\\ronal\\OneDrive\\Documentos\\cadastro-api"
+
   },
   "keywords": [],
   "author": "",
